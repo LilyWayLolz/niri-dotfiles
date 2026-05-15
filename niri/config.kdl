@@ -155,10 +155,15 @@ spawn-sh-at-startup "swaybg -i /home/jane/Pictures/vflower_pretty.png"
 spawn-sh-at-startup "qs -c noctalia-shell"
 spawn-at-startup "oniri"
 
-// To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup
-
 hotkey-overlay {
     skip-at-startup
+}
+
+gestures {
+    // Disable overview on corners
+    hot-corners {
+        off
+    }
 }
 
 // You can change the path where screenshots are saved.
