@@ -1,0 +1,88 @@
+[bar.default]
+background_opacity = 0.75
+capsule = true
+capsule_opacity = 0.5
+capsule_radius = 12
+end = [ "cpu", "temp", "ram", "media", "tray", "notifications", "volume" ]
+font_weight = 600
+margin_ends = 10
+padding = 16
+radius = 12
+scale = 1.1000000000000001
+shadow = false
+start = [ "session", "workspaces" ]
+thickness = 36
+
+[[control_center.shortcuts]]
+type = "caffeine"
+
+[[control_center.shortcuts]]
+type = "notification"
+
+[desktop_widgets]
+enabled = false
+
+[nightlight]
+enabled = true
+
+[notification]
+background_opacity = 0.84999999999999998
+
+[shell]
+font_family = "JetBrainsMono NF"
+polkit_agent = true
+settings_show_advanced = true
+telemetry_enabled = false
+
+    [shell.animation]
+    speed = 1.5
+
+    [shell.mpris]
+    blacklist = [ "Floorp" ]
+
+    [shell.shadow]
+    alpha = 0.0
+
+[theme]
+builtin = "Dracula"
+source = "builtin"
+
+    [theme.templates]
+    builtin_ids = [ "btop", "gtk3", "gtk4", "helix", "qt" ]
+    community_ids = [ "steam" ]
+
+[wallpaper]
+directory = "/home/jane/Pictures/Wallpapers"
+directory_dark = "/home/jane/Pictures/Wallpapers"
+directory_light = "/home/jane/Pictures/Wallpapers"
+
+    [wallpaper.default]
+    path = "/home/jane/Pictures/Wallpapers/vflower_pretty.png"
+
+    [wallpaper.last]
+    path = "/home/jane/Pictures/Wallpapers/vflower_pretty.png"
+
+    [wallpaper.monitors.DP-1]
+    path = "/home/jane/Pictures/Wallpapers/vflower_pretty.png"
+
+    [wallpaper.monitors.HDMI-A-1]
+    path = "/home/jane/Pictures/Wallpapers/vflower_pretty.png"
+
+[weather]
+address = "Chiang Mai, Thailand"
+
+[widget.cpu]
+display = "text"
+
+[widget.media]
+hide_when_no_media = true
+title_scroll = "on_hover"
+
+[widget.ram]
+display = "text"
+
+[widget.sysmon]
+display = "text"
+
+[widget.temp]
+display = "text"
